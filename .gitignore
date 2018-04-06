@@ -1,0 +1,23 @@
+# build artifacts
+build/
+debian/changelog
+debian/files
+debian/kodi-pvr-tvmosaic-dbg.debhelper.log
+debian/kodi-pvr-tvmosaic-dbg.substvars
+debian/kodi-pvr-tvmosaic-dbg/
+debian/kodi-pvr-tvmosaic.debhelper.log
+debian/kodi-pvr-tvmosaic.postinst.debhelper
+debian/kodi-pvr-tvmosaic.postrm.debhelper
+debian/kodi-pvr-tvmosaic.substvars
+debian/kodi-pvr-tvmosaic/
+debian/tmp/
+obj-x86_64-linux-gnu/
+pvr.tvmosaic/addon.xml
+
+# clion
+.idea/
+
+# Eclipse/CDT
+.cproject
+.project
+.settings/
