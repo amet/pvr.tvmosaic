@@ -28,6 +28,6 @@ set(DVBLINK_SOURCES src/base64.cpp
 
 add_subdirectory(lib/libdvblinkremote)
 set(DEPLIBS ${platform_LIBRARIES} dvblinkremote ${TINYXML2_LIBRARIES})
-build_addon(ppvr.tvmosaic DVBLINK DEPLIBS)
+build_addon(pvr.tvmosaic DVBLINK DEPLIBS)
 
 include(CPack)
